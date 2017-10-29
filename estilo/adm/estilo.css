@@ -1,0 +1,227 @@
+body {
+  margin: 0px;
+  background-color: rgb(210,230,255);
+}
+
+h1 {
+  font-family: 'Days One', sans-serif;
+  font-size: 45px;
+  color: rgb(049,046,103);
+}
+
+p, li, a, td, input {
+  font-family: 'Assistant', sans-serif;
+  font-size: 25px;
+  color: rgb(049,046,103);
+}
+
+footer p{
+  font-size: 15px;
+  padding: 25px;
+  padding-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.conteudo{
+  padding: 0em;
+}
+
+.center {
+  text-align: center;
+}
+
+.esquerda {
+  float: left;
+}
+
+.direita {
+  float: right;
+}
+
+#inicio, #sobre  {
+  padding-top: 4em;
+}
+
+.bg_video {
+  display: block;
+  max-width: 85%;
+}
+
+.tabela table {
+  display: block;
+  margin-top: 2em; 
+  background-color: rgb(240,255,255);
+  margin: auto;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.form{
+  font-family: 'Assistant', sans-serif;
+  font-size: 25px;
+  color: rgb(049,046,103);
+}
+
+.form input {
+  font-size: 20px;
+  margin: 5px;
+  color: rgb(049,046,103);
+}
+
+[class*=col-] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.msg-alerta{
+  margin: 5.5em 1.5em 5em 1.5em;
+  background-color: rgb(445,448,120);
+  border-radius: 4px;
+  padding: 2em 0em 2em 0em;
+}
+
+.botao-padrao {
+    background-color: #4CAF50;
+    width: cover;
+    font: 18px "Sanchez", sans-serif;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botao-padrao a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.botao-azul {
+    background-color: blue;
+    width: cover;
+    font: 18px "Sanchez", sans-serif;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botao-azul a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.botao-alerta {
+    background-color: FireBrick;
+    width: cover;
+    font: 18px "Sanchez", sans-serif;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botao-alerta a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.conteudo-caixa {
+  margin: auto;
+  display: block;
+}
+
+.nav-menu{
+  box-shadow: 0px 0.3px 10px 0.1px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav-menu ul{
+  background-color: rgb(355,348,320);
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0em;
+}
+
+.nav-menu li{
+  float: left;
+  margin-left: 4em;
+  box-shadow: 5;
+}
+
+.nav-menu li.direito{
+  float: right;
+  padding-right: 25px;
+}
+
+.nav-menu li a{
+  display: block;
+  padding: 1em;
+  color: #483D8B;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-menu li a:hover{
+  background-color: SkyBlue;
+  color: white;
+}
+
+.fonte-mkt p {
+  font-size: 30px;
+}
+
+.img-mkting img {
+  width: 80%;
+  border-radius: 30%;
+  margin-left: 10%;
+  margin-right: -50%;
+}
